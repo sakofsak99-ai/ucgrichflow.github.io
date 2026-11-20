@@ -1,1 +1,11 @@
 
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80">
+  <rect width="300" height="80" rx="12" fill="#09090d"/>
+  <text x="12" y="43" font-family="Arial, sans-serif"
+        font-size="34" font-weight="800" fill="#f5f5f7">RICH</text>
+  <text x="111" y="43" font-family="Arial, sans-serif"
+        font-size="34" font-weight="800" fill="#a78bfa">FLOW</text>
+  <text x="14" y="62" font-family="Arial, sans-serif"
+        font-size="9" letter-spacing="3" fill="#9999a8">CREATIVE AGENCY</text>
+</svg>
