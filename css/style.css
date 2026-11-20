@@ -920,3 +920,55 @@ button:focus-visible {
 .footer-links a:hover {
     color: var(--accent);
   }
+
+/* ENTREPRENEUR DETAILS */
+
+.footer-legal {
+    margin-top: 32px;
+    padding-top: 25px;
+    border-top: 1px solid var(--border);
+}
+
+.footer-legal-title {
+    color: var(--accent);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 17px;
+}
+
+.footer-legal-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 30px;
+}
+
+.footer-legal-details p {
+    color: var(--muted);
+    font-size: 11px;
+}
+
+.footer-legal-details strong {
+    color: var(--text);
+    font-weight: 600;
+}
+
+.footer-legal-details a {
+    color: var(--text);
+    transition: color .25s;
+}
+
+.footer-legal-details a:hover {
+    color: var(--accent);
+}
+
+@media (max-width: 600px) {
+    .footer-legal-details {
+        flex-direction: column;
+        gap: 9px;
+    }
+
+    .footer-legal-title {
+        line-height: 1.5;
+    }
+}
