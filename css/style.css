@@ -1122,3 +1122,137 @@ button:focus-visible {
         line-height: 1.5;
     }
     
+
+/* =========================================
+   RICHFLOW — TRUST & CONVERSION SECTIONS
+   ========================================= */
+
+.hero-description {
+    max-width: 650px;
+}
+
+.about-text p {
+    margin-bottom: 18px;
+    line-height: 1.85;
+}
+
+.about-text .small-note {
+    display: block;
+    margin-top: 25px;
+    padding: 17px 19px;
+    border-left: 2px solid var(--accent);
+    background: rgba(53, 212, 154, 0.055);
+    border-radius: 0 10px 10px 0;
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.direction-card {
+    position: relative;
+    overflow: hidden;
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease,
+        background 0.3s ease;
+}
+
+.direction-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(53, 212, 154, 0.35);
+}
+
+.direction-card p {
+    line-height: 1.75;
+}
+
+.process-item p {
+    line-height: 1.75;
+}
+
+.creator-panel p {
+    max-width: 650px;
+    line-height: 1.85;
+}
+
+.contact-grid p {
+    max-width: 520px;
+    line-height: 1.8;
+}
+
+.contact-link {
+    transition:
+        border-color 0.25s ease,
+        background 0.25s ease,
+        transform 0.25s ease;
+}
+
+.contact-link:hover {
+    border-color: rgba(53, 212, 154, 0.4);
+    background: rgba(53, 212, 154, 0.045);
+    transform: translateX(4px);
+}
+
+.footer-disclaimer {
+    line-height: 1.8;
+}
+
+/* Additional spacing for new content blocks */
+
+#advantages,
+#workflow,
+#documents-info {
+    scroll-margin-top: 100px;
+}
+
+#directions .section-heading + .direction-grid {
+    margin-top: 30px;
+}
+
+#directions .direction-grid + .section-heading {
+    margin-top: 65px;
+}
+
+#workflow .process-list {
+    margin-top: 35px;
+}
+
+/* Mobile adjustments */
+
+@media (max-width: 700px) {
+    .about-text p {
+        font-size: 14px;
+    }
+
+    .about-text .small-note {
+        font-size: 12px;
+        padding: 14px;
+    }
+
+    #directions .direction-grid + .section-heading {
+        margin-top: 45px;
+    }
+
+    #advantages,
+    #workflow,
+    #documents-info {
+        scroll-margin-top: 80px;
+    }
+
+    .contact-link:hover {
+        transform: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .direction-card,
+    .contact-link {
+        transition: none;
+    }
+
+    .direction-card:hover,
+    .contact-link:hover {
+        transform: none;
+    }
+}
+   
